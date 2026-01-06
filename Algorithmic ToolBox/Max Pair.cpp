@@ -28,11 +28,6 @@ long long pairs(vector<int> &arr) {
     int l1 = 0;
     long long n2 = 0;
 
-    // n1 = n2;
-    // n2 = arr.at(n);
-    // indexPositionP1 = indexPositionP2;
-    // indexPositionP2 = n;
-
     for (int n = 0; n < arr.size(); n++) {
 
         if (arr.at(n) > n1) {
